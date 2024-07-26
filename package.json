@@ -13,10 +13,10 @@
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-<<<<<<< HEAD
+
     "react-icons": "^5.2.1",
-=======
->>>>>>> 8a0e4bd30e97b1bee1e828688d5b5279bdf781db
+
+
     "styled-components": "^6.1.12"
   },
   "devDependencies": {
