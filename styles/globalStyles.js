@@ -2,18 +2,29 @@ import {
     createGlobalStyle
 } from 'styled-components';
 
-const GlobalStyle = createGlobalStyle `
-  body {
+const GlobalStyles = createGlobalStyle `
+  * {
+    box-sizing: border-box;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: #121212;
-    color: white;
+    padding: 0;
   }
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+
+  body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+
+  h2, h3 {
+    color: #fff;
+  }
+
+  button {
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 `;
 
-export default GlobalStyle;
+export default GlobalStyles;
